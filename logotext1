@@ -7,3 +7,7 @@ script = logo.addEventListener('mousemove', (e) => {
         40px rgba(0,0,0,0.2)
     `;
 });
+
+logo.addEventListener('mouseleave', () => {
+    logo.style.boxShadow = "0 10px 30px rgba(0,0,0,0.15)";
+});
