@@ -1,0 +1,9 @@
+font : @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&display=swap');
+
+script = logo.addEventListener('mousemove', (e) => {
+    logo.style.boxShadow = `
+        ${(e.offsetX - 150)/10}px 
+        ${(e.offsetY - 80)/10}px 
+        40px rgba(0,0,0,0.2)
+    `;
+});
